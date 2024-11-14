@@ -64,7 +64,7 @@ const Sudoku = ({sudokuGrid, setSudokuGrid, action,
                 ${belongToCurrentGrid(rowIdx, colIdx, currCord.x_idx, currCord.y_idx) ? 'curr' : ''}
                 ${checkValidity(rowIdx, colIdx) ? 'validity': ''}
                 `}
-              style={{width: '50px', height: '50px'}}
+              // style={{width: '50px', height: '50px'}}
               data-key={`${rowIdx}:${colIdx}`}
               data-val={sudokuGrid[rowIdx][colIdx]}
               key={`${rowIdx}:${colIdx}`}

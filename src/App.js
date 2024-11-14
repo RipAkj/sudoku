@@ -85,7 +85,7 @@ const App = () => {
 
     return (
         <div className="App">
-            <div style={{ display: 'flex', gap: '1rem', alignItems: 'center' }}>
+            <div className="App1">
                 <Sudoku
                     sudokuGrid={sudokuGrid}
                     setSudokuGrid={setSudokuGrid}
