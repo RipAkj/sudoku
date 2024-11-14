@@ -88,7 +88,6 @@ const Numpad = ({
   }
 
   const handleHintClick = (e) => {
-    console.log("button click")
     let left = [];
     for(let i=0;i<9;i++){
         for(let j=0;j<9;j++){
@@ -100,8 +99,6 @@ const Numpad = ({
     if(left.length === 0)return ;
     let i = Math.floor(Math.random() * left.length);
     const item = solution[left[i]['i']][left[i]['j']];
-    console.log("item", item)
-    console.log(solution)
     let new_undo = undo;
     new_undo.push(JSON.parse(JSON.stringify(sudokuGrid)));
     setUndo(new_undo)
