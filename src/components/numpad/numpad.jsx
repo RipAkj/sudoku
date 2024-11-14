@@ -111,7 +111,7 @@ const Numpad = ({
     return ;
   }
 
-  const count_digits = (grid) => {
+  const count_digits = (grid) => { 
     let digit_count_temp = Array.from({ length: 9 }, () => 0);
     for(let i=0;i<9;i++){
         for(let j=0;j<9;j++){
