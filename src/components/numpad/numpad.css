@@ -7,8 +7,8 @@
 }
 
 .gameboard {
-    width: 400px;
-    height: 300px;
+    /* width: 400px;
+    height: 300px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -36,6 +36,9 @@
 .num {
     width: 100px;
     height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin: 5px !important;
     background-color: #eaeef4;
     border-radius: 15px;
